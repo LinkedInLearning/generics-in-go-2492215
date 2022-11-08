@@ -18,8 +18,8 @@ func main() {
 	fmt.Printf(solar2k.Print())
 	fmt.Printf(solar3k.Print())
 	fmt.Printf(windwest.Print())
-	fmt.Printf("our first generic function: %s\n", business.PrintGeneric[business.Solar](solar2k))
-	fmt.Printf("our first generic function with wind: %s\n", business.PrintGeneric[business.Wind](windwest))
+	fmt.Printf("our first generic function: %s\n", business.PrintGeneric(solar2k))
+	fmt.Printf("our first generic function with wind: %s\n", business.PrintGeneric(windwest))
 
 	// Print functions for 01_04
 	ss := []business.Solar{solar2k, solar3k}
