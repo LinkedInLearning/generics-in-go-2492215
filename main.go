@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.comLinkedInLearning/generics-in-go-2492215/business"
+	"golang.org/x/exp/maps"
 	"golang.org/x/exp/slices"
 )
 
@@ -44,4 +45,6 @@ func main() {
 	contracts[2] = solar2k
 	contracts[3] = solar3k
 	contracts[4] = solar2k
+	contractIDS := maps.Keys(contracts)
+	fmt.Println(contractIDS)
 }
