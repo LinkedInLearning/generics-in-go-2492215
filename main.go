@@ -37,4 +37,11 @@ func main() {
 	business.SortByCost(ss)
 	fmt.Printf("index: %d\n", slices.Index(ss, solar2k))
 	business.SortByCost(ss)
+
+	// Map from contract id's to solar products for 04_03
+	contracts := make(map[int]business.Solar)
+	contracts[1] = solar2k
+	contracts[2] = solar2k
+	contracts[3] = solar3k
+	contracts[4] = solar2k
 }
