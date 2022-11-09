@@ -8,6 +8,9 @@ type Solar struct {
 	Netto float64
 }
 
+// SolarSlice is a defined slice of Solar.
+type SolarSlice []Solar
+
 // Wind handles all the different energy offers powered by wind.
 type Wind struct {
 	Name  string
