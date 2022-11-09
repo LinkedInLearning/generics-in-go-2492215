@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.comLinkedInLearning/generics-in-go-2492215/business"
+	"golang.org/x/exp/slices"
 )
 
 // main is our simple "playground" for the course.
@@ -31,4 +32,9 @@ func main() {
 	business.PrintSlice(ss2)
 	business.PrintSlice2(ss2)
 
+	// Print functions for 04_02
+	fmt.Printf("index: %d\n", slices.Index(ss, solar2k))
+	business.SortByCost(ss)
+	fmt.Printf("index: %d\n", slices.Index(ss, solar2k))
+	business.SortByCost(ss)
 }
