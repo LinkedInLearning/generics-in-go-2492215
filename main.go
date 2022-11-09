@@ -25,4 +25,10 @@ func main() {
 	ss := []business.Solar{solar2k, solar3k}
 	business.PrintSlice[business.Solar](ss)
 	business.PrintSlice[business.Wind]([]business.Wind{windwest, windwest})
+
+	// Print functions for 03_02
+	ss2 := business.SolarSlice{solar2k, solar3k}
+	business.PrintSlice(ss2)
+	business.PrintSlice2(ss2)
+
 }
