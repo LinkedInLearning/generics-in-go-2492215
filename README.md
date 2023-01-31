@@ -28,6 +28,9 @@ To resolve this issue:
 1. To use these exercise files, you must have the following installed:
 	- Go 1.18 or later - [Download and install](https://go.dev/doc/install) 
 2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
+3. To install all dependencies run `go get .` from this directory, the root directory. 
+Be aware that the dependencies differ between the branches, so ensure to execute the command when you switch to another branch.
+4. Run the example program, e.g., with `go run main.go`.
 
 
 ### Instructor
